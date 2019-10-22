@@ -54,9 +54,11 @@ netlifyIdentity.init({
 export default {
   name: "app",
   components: {
+    /* eslint-disable vue/no-unused-components */
     Home,
     Public,
     Protected
+    /* eslint-enable vue/no-unused-components */
   },
   computed: {
     ...mapGetters("user", {
